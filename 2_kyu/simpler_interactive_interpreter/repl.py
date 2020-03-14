@@ -335,7 +335,9 @@ class Interpreter:
 
 interpreter = Interpreter()
 code = [
-    "(8 - (4 + 2)) * 3"
+    "(8 - (4 + 2)) * 3",
+    "x = -1",
+    "x"
 ]
 
 for line in code:
